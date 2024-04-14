@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    min-height: 100vh;
+    background: #0d273a;
+    /* background: url('bck3.jpg')no-repeat; */
+    background-size:cover;
+    background-position:center ;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 100px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index: 99;
+    /* opacity:0.5; */
+    background-color:#0d273a;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    font-size: 2em;
+    color:#cc4848;
+    user-select: none;
+}
+
+.home{
+    height: 100vh;
+    background-position:center;
+    display: flex;
+    align-items:center;
+    padding: 0 10%;
+}
+.home-content{
+    background:transparent;
+    max-width: 600px;
+
+}
+.home-content h1{
+  font-size: 100px;
+  font-weight: 700;
+  color:#00abf0;  
+}
+.home-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    color:gray;
+}
+.home-content h3{
+    font-size: 42px;
+    color:gray;
+}
+.home-sci{
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.home-sci a{
+    position:relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background:transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+.home-sci a:hover{
+    color:#081b29
+}
+.home-sci a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #00abf0;
+    z-index: -1;
+    transition: .5s;
+}
+.home-sci a:hover::before{
+    width: 100%;
+}
+.container{
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+.form-group{
+    margin-bottom: 30px;
+}
+
+.form-group input{
+    padding: 10px;
+    width: 400px;
+}
+
+.register button{
+    padding: 10px;
+    width: 100px;
+    margin: auto;
+    background-color:#0d5673;
+    color: white;
+    border-radius: 10px;
+    border: black solid 1px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.alert{
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #dd8888;
+   
+}
+
+.not{
+    margin: 15px;
+    color: #cc4848;
+  
+}

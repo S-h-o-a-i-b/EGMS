@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background: #0d273a;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 2em;
+    color: #cc4848;
+    user-select: none;
+}
+
+.image-caption {
+    text-align: center; /* Align the figure content to the center */
+}
+
+.image-caption img {
+    max-width: 23%;
+    display: block;
+    margin: 0 auto 10px;  
+}
+
+.image-caption figcaption {
+    font-size: 14px; /* Set the font size for the caption */
+    color: #666; /* Set the color of the caption text */
+    /* margin-top: 10px; Add some space between the image and the caption */
+}
+.wrap {
+    width: 80%; /* Adjusted width */
+    padding: 30px; /* Added padding */
+    background:transparent; /* Adjusted background */
+    border: 2px solid gray;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    text-align: center; /* Centered text */
+    margin: 0 auto;
+}
+
+.wrap h2 {
+    color:gray;
+    font-size: 30px; /* Adjusted font size */
+    margin-bottom: 20px; /* Adjusted margin-bottom */
+}
+
+.wrap p {
+    color: #cc4848;
+    font-size: 21px; /* Adjusted font size */
+    line-height: 1.5; /* Adjusted line height */
+}

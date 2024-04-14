@@ -1,0 +1,31 @@
+.logo{
+       font-size: 2em;
+        color:#cc4848;
+        user-select: none;
+    
+}
+
+.title{
+        font-size: 2em;
+        color:#486dcc;
+        user-select: none;
+        margin: auto;
+}
+.container{
+    border:2px solid black;
+}
+
+table,th,td{
+    border: 1px solid black;
+    width: 1100px;
+    
+    background-color: lightblue;
+}
+
+table,tr,td{
+    border: 1px solid black;
+    width:1100px;
+    
+    background-color: lightblue;
+}
+
